@@ -6,8 +6,10 @@ pub fn Home() -> impl IntoView {
     view! {
         <Banner />
         <main>
+        <article>
             <h2>"Hello!"</h2>
-            <p>"This website is still being built. "</p>
+            <p>"This website is under construction."</p>
+            </article>
         </main>
     }
 }
