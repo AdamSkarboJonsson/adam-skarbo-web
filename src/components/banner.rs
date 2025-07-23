@@ -9,8 +9,8 @@ pub fn Banner() -> impl IntoView {
                 <div class="banner-title">
                     <A href="/">
                         <h1>
-                            "Adam Skärbo Jonsson" 
-                            <br/> 
+                            "Adam Skärbo Jonsson"
+                            <br/>
                             <span class="subtitle">"Machine Learning Engineer" </span>
                         </h1>
                     </A>

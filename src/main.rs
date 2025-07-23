@@ -1,5 +1,5 @@
-use leptos::prelude::*;
 use adam_skarbo_web::App;
+use leptos::prelude::*;
 
 fn main() {
     // set up logging
