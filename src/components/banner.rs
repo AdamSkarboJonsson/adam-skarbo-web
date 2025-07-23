@@ -1,5 +1,4 @@
 use leptos::prelude::*;
-use leptos_router::components::A;
 
 #[component]
 pub fn Banner() -> impl IntoView {
@@ -7,13 +6,11 @@ pub fn Banner() -> impl IntoView {
         <div id="banner">
             <div class="banner-content">
                 <div class="banner-title">
-                    <A href="/">
-                        <h1>
-                            "Adam Skärbo Jonsson"
-                            <br/>
-                            <span class="subtitle">"Machine Learning Engineer" </span>
-                        </h1>
-                    </A>
+                    <h1>
+                        "Adam Skärbo Jonsson"
+                        <br/>
+                        <span class="subtitle">"Machine Learning Engineer" </span>
+                    </h1>
                 </div>
                 <div class="banner-contacts">
                     <a href="mailto:adskarbo@gmail.com" class="banner-contact-item">
