@@ -28,6 +28,7 @@ pub fn App() -> impl IntoView {
         <Router>
             <Routes fallback=|| view! { <NotFound /> }>
                 <Route path=path!("/") view=Home/>
+                <Route path=path!("/adam-skarbo-web/") view=Home/>
             </Routes>
         </Router>
     }
